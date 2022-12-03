@@ -57,7 +57,7 @@ while play_again:
                 winner_colour = (turtle.pencolor())
                 if winner_colour == "orange":
                     winner = "maya"
-                elif winner == "gray":
+                elif winner_colour == "gray":
                     winner = "pandora"
                 elif winner_colour == "blue":
                     winner = "pedro"
